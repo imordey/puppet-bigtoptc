@@ -59,7 +59,7 @@ where /root/modules is the directory containing puppet-bigtoptc/
 
 Due to redistribution restrictions the Oracle JDK must be downloaded seperately. 
 
-Download the Java rpm.bin file, run it with the -x switch to extract the rpm file and copy jdk-6u43-linux-amd64.rpm to puppet-bigtoptc/files.
+Download the JDK 64bit rpm.bin file, run it with the -x switch to extract the rpm file and copy jdk-6u43-linux-amd64.rpm to puppet-bigtoptc/files.
 
 The following files must also be downloaded from their respective mirrors and copied into files/
 

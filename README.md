@@ -3,6 +3,8 @@ puppet-bigtoptc
 
 ##BigTop Toolchain Deployment
 
+Ian Mordey <ian.mordey@wandisco.com>
+
 Puppet module for configuring a CentOS host for building BigTop. It installs:
 
 **Apache Ant 1.9.0**

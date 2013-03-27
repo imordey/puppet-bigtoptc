@@ -48,6 +48,7 @@ It will create a user jenkins with the required  environment variables set for b
 	PATH=$PATH:$FORREST_HOME/bin
 	
 ## Requirements
+
 Due to redistribution restrictions the Oracle JDK must be downloaded seperately. 
 
 Download the Java rpm.bin file, run it with the -x switch to extract the rpm file and copy jdk-6u43-linux-amd64.rpm to puppet-bigtoptc/files.
@@ -61,3 +62,9 @@ apache-forrest-0.9-dependencies.tar.gz
 apache-forrest-0.9-sources.tar.gz
 
 apache-maven-3.0.5-bin.tar.gz
+
+## Support
+
+License: Apache License, Version 2.0
+
+GitHub URL: https://github.com/imordey/puppet-bigtoptc

@@ -15,7 +15,9 @@ Puppet module for configuring a CentOS host for building BigTop. It installs:
 
 **Protobuf 2.4.1**
 
-These can be indivdually installed using:
+##Usage
+
+These can be indivdually applied using:
 
 
 	node "node1.example.com" {
@@ -35,7 +37,7 @@ Or installed as a whole with:
 	  include puppet-bigtoptc::installer
 	}
 
-It will also create a user jenkins with the required  environment variables set for building BigTop:
+It will create a user jenkins with the required  environment variables set for building BigTop:
 
 	MAVEN_HOME=/usr/local/maven
 	PATH=$PATH:$MAVEN_HOME/bin

@@ -47,6 +47,12 @@ It will create a user jenkins with the required  environment variables set for b
 	FORREST_HOME=/usr/local/apache-forrest
 	PATH=$PATH:$FORREST_HOME/bin
 	
+If you do not want to use a puppet master this module can be applied standalone with a command such as:
+
+	puppet apply --modulepath=/root/modules -e "include puppet-bigtoptc::installer"
+	
+where /root/modules is the directory containing puppet-bigtoptc/
+
 ## Requirements
 
 Due to redistribution restrictions the Oracle JDK must be downloaded seperately. 
